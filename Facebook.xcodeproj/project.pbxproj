@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1CD8114C2136AA3B001C2F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8114B2136AA3B001C2F46 /* AppDelegate.swift */; };
-		1CD8114E2136AA3B001C2F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8114D2136AA3B001C2F46 /* ViewController.swift */; };
 		1CD811512136AA3B001C2F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8114F2136AA3B001C2F46 /* Main.storyboard */; };
 		1CD811532136AA3B001C2F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD811522136AA3B001C2F46 /* Assets.xcassets */; };
 		1CD811562136AA3B001C2F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD811542136AA3B001C2F46 /* LaunchScreen.storyboard */; };
+		1CD8115E2136C2B8001C2F46 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8115D2136C2B8001C2F46 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CD811482136AA3A001C2F46 /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD8114B2136AA3B001C2F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CD8114D2136AA3B001C2F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CD811502136AA3B001C2F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CD811522136AA3B001C2F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD811552136AA3B001C2F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CD811572136AA3B001C2F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD8115D2136C2B8001C2F46 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				1CD8114B2136AA3B001C2F46 /* AppDelegate.swift */,
-				1CD8114D2136AA3B001C2F46 /* ViewController.swift */,
 				1CD8114F2136AA3B001C2F46 /* Main.storyboard */,
 				1CD811522136AA3B001C2F46 /* Assets.xcassets */,
 				1CD811542136AA3B001C2F46 /* LaunchScreen.storyboard */,
 				1CD811572136AA3B001C2F46 /* Info.plist */,
+				1CD8115D2136C2B8001C2F46 /* LoginVC.swift */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD8114E2136AA3B001C2F46 /* ViewController.swift in Sources */,
+				1CD8115E2136C2B8001C2F46 /* LoginVC.swift in Sources */,
 				1CD8114C2136AA3B001C2F46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
